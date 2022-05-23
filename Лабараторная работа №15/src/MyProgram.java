@@ -1,11 +1,12 @@
 import java.util.Scanner;
 import java.lang.String;
 enum Sizes{
-/*     String getDiscription() {
-        return "Взрослый размер";
-        }*/
-    int[] euroSize = {32,34,36,38,40};
-    XXS, XS, S, M, L;
+GET {
+        String getDiscription() {
+            return "Взрослый размер";
+        }
+    },
+XXS, XS, S, M, L;
 
 }
 
