@@ -1,13 +1,14 @@
 import java.util.Scanner;
 import java.lang.String;
 enum Sizes{
-GET {
-        String getDiscription() {
-            return "Взрослый размер";
-        }
-    },
-XXS, XS, S, M, L;
 
+    XXS(1), XS(2), S(3), M(4), L(5);
+    
+    private String str;
+    Sizes(int i){ this.str = "Взрослый размер";}
+    String getDiscription() {
+        return "Взрослый размер";
+    }
 }
 
 interface  MenClothes{
